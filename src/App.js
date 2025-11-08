@@ -14,9 +14,12 @@ import Team from "./Pages/Team";
 function App() {
   return (
     <Router>
-      <div className="flex flex-col min-h-screen">
-        <Navbar /> {/* Always rendered at the top */}
-        <main className="flex-grow pt-16"> {/* pt-16 offsets fixed navbar */}
+      <div className="relative flex flex-col min-h-screen bg-beige">
+        {/* Transparent Navbar (overlays hero video) */}
+        <Navbar />
+
+        {/* Main Content */}
+        <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
@@ -26,7 +29,9 @@ function App() {
             <Route path="/team" element={<Team />} />
           </Routes>
         </main>
-        <Footer /> {/* Always rendered at the bottom */}
+
+        {/* Footer */}
+        <Footer />
       </div>
     </Router>
   );
