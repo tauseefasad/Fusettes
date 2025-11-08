@@ -3,25 +3,20 @@ import { motion } from "framer-motion";
 
 const teamMembers = [
   {
-    name: "Alice Johnson",
-    bio: "Lead Barista, passionate about latte art and customer experience.",
+    name: "Max Aga",
+    bio: "Owner",
     image: "/assets/alice.jpg",
   },
   {
-    name: "Bob Smith",
-    bio: "Café Manager, ensuring smooth operations and excellent service.",
+    name: "Cagla Arlsan",
+    bio: "Team Lead",
     image: "/assets/bob.jpg",
   },
   {
-    name: "Catherine Lee",
-    bio: "Marketing Coordinator, connecting Fusettes Café with the community.",
+    name: "Seef Asad",
+    bio: "Team Lead",
     image: "/assets/catherine.jpg",
-  },
-  {
-    name: "Daniel Brown",
-    bio: "Head Chef, crafting fresh pastries and seasonal menu items.",
-    image: "/assets/daniel.jpg",
-  },
+  }
 ];
 
 const Team = () => {

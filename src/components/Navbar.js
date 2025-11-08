@@ -20,7 +20,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
         <h1 className="text-2xl font-bold tracking-wide drop-shadow-lg">
-          Fusettes Café
+          Fusettes 
         </h1>
 
         {/* Desktop Links */}

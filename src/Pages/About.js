@@ -18,10 +18,10 @@ const About = () => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.3, duration: 1 }}
       >
-        Fusettes Café began with a simple dream — to bring people together through
+        Fusettes began with a simple dream — to bring people together through
         coffee, comfort, and creativity. Every bean we brew and every pastry we bake
         carries our belief in connection, authenticity, and warmth. Whether you’re
-        here for your morning espresso or an evening conversation, we invite you to
+        here for your morning espresso, study session, or an evening conversation, we invite you to
         slow down and savor the moment.
       </motion.p>
     </section>

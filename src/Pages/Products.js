@@ -5,63 +5,46 @@ const suppliers = [
   {
     name: "Dear Grain Bakery - Classic Collection",
     type: "Bakery",
-    description: "Freshly baked artisan breads and pastries.",
+    description: "Freshly baked cookies every day on batches",
     image: "/assets/dear-grain1.jpg",
   },
   {
-    name: "Dear Grain Bakery - Seasonal Collection",
+    name: "Dear Grain Bakery - Vegan Collection",
     type: "Bakery",
-    description: "Seasonal treats and pastries for every occasion.",
-    image: "/assets/dear-grain2.jpg",
+    description: "Delicious vegan-friendly Buckwheat Cookies and Muffins",
+    image: "/assets/dear-grain3.jpg",
   },
   {
-    name: "Detour Coffee Roasters - House Blend",
+    name: "Detour Coffee Roasters - Punch Buggy",
     type: "Coffee Beans",
     description: "Rich and smooth medium roast for espresso and filter.",
     image: "/assets/detour1.jpg",
   },
   {
-    name: "Detour Coffee Roasters - Dark Roast",
+    name: "Detour Coffee Roasters - Detour Dark",
     type: "Coffee Beans",
     description: "Bold, full-bodied coffee with chocolate notes.",
     image: "/assets/detour2.jpg",
   },
+
   {
-    name: "Dear Grain Bakery - Vegan Collection",
-    type: "Bakery",
-    description: "Delicious vegan-friendly pastries and breads.",
-    image: "/assets/dear-grain3.jpg",
-  },
-  {
-    name: "Detour Coffee Roasters - Decaf",
+    name: "Detour Coffee Roasters - Decaf Hulia",
     type: "Coffee Beans",
     description: "Smooth decaf option without sacrificing flavor.",
     image: "/assets/detour3.jpg",
   },
   {
-    name: "Local Fruit Supplier",
-    type: "Produce",
-    description: "Seasonal fresh fruits for drinks and desserts.",
-    image: "/assets/fruit.jpg",
-  },
-  {
-    name: "Local Milk Supplier",
-    type: "Dairy",
-    description: "High-quality milk for coffees and lattes.",
+    name: "Giffard Imported Authentic Syrups",
+    type: "Flavour Syrups",
+    description: "Giffards Premium syrups for coffee imported from France",
     image: "/assets/milk.jpg",
   },
   {
-    name: "Chocolate Co.",
-    type: "Chocolate",
-    description: "Premium chocolate for desserts and drinks.",
-    image: "/assets/chocolate.jpg",
-  },
-  {
-    name: "Honey Farm",
-    type: "Condiments",
-    description: "Organic honey for sweetening drinks and pastries.",
-    image: "/assets/honey.jpg",
-  },
+    name: "Panini",
+    type: "Sandwiches",
+    description: "Freshly made panini with sourdough foccacia breads and organic ingredients",
+    image: "/assets/fruit.jpg",
+  }
 ];
 
 const Products = () => {

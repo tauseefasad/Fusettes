@@ -22,7 +22,7 @@ const Home = () => {
       </section>
 
 {/* Contact Us Section */}
-<section className="w-full h-screen snap-start bg-mcm-dark text-white flex flex-col justify-center items-center p-10">
+<section className="w-full h-screen snap-start bg-mcm-dark text-black flex flex-col justify-center items-center p-10">
   <h2 className="text-4xl font-light mb-6 tracking-wide">Contact Us</h2>
   <p className="max-w-2xl text-center mb-8">
     Have questions or want to reach out? Fill the form below and we'll get back to you!

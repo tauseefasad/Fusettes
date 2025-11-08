@@ -20,17 +20,19 @@ const Hero = () => {
 
       {/* Animated text overlay */}
       <motion.div
-        initial={{ opacity: 0, y: 30 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1.5, ease: "easeOut" }}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 3, ease: "easeOut" }} // <-- slow fade in over 3 seconds
         className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-6"
       >
-        <h1 className="text-5xl md:text-7xl font-light tracking-wide mb-4">
-          Welcome to Fusettes Café
-        </h1>
-        <p className="text-lg md:text-2xl font-light max-w-2xl">
-          Where coffee, comfort, and connection blend perfectly.
-        </p>
+        <motion.h1
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 3, ease: "easeOut", delay: 0.5 }} // slow fade-in
+          className="text-5xl md:text-7xl font-light tracking-wide mb-4"
+        >
+          Fusettes
+        </motion.h1>
       </motion.div>
     </section>
   );
