@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Fusettes/static/css/main.4b00b77f.css",
+    "main.js": "/Fusettes/static/js/main.f9531b06.js",
+    "index.html": "/Fusettes/index.html",
+    "static/media/hero.mp4": "/Fusettes/static/media/hero.31d6cfe0d16ae931b73c.mp4",
+    "main.4b00b77f.css.map": "/Fusettes/static/css/main.4b00b77f.css.map",
+    "main.f9531b06.js.map": "/Fusettes/static/js/main.f9531b06.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b00b77f.css",
+    "static/js/main.f9531b06.js"
+  ]
+}
