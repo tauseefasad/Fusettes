@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/Fusettes/static/css/main.4b00b77f.css",
-    "main.js": "/Fusettes/static/js/main.f9531b06.js",
+    "main.css": "/Fusettes/static/css/main.57a92059.css",
+    "main.js": "/Fusettes/static/js/main.ebd44c5c.js",
+    "static/media/hero.mp4": "/Fusettes/static/media/hero.a6dd2e412fcb17b2a735.mp4",
+    "static/media/menu.png": "/Fusettes/static/media/menu.edace510245f3bfaab9a.png",
     "index.html": "/Fusettes/index.html",
-    "static/media/hero.mp4": "/Fusettes/static/media/hero.31d6cfe0d16ae931b73c.mp4",
-    "main.4b00b77f.css.map": "/Fusettes/static/css/main.4b00b77f.css.map",
-    "main.f9531b06.js.map": "/Fusettes/static/js/main.f9531b06.js.map"
+    "main.57a92059.css.map": "/Fusettes/static/css/main.57a92059.css.map",
+    "main.ebd44c5c.js.map": "/Fusettes/static/js/main.ebd44c5c.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b00b77f.css",
-    "static/js/main.f9531b06.js"
+    "static/css/main.57a92059.css",
+    "static/js/main.ebd44c5c.js"
   ]
 }
