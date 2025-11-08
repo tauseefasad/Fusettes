@@ -1,5 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+// Components
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
@@ -14,12 +16,10 @@ import Team from "./Pages/Team";
 function App() {
   return (
     <Router>
-      <div className="relative flex flex-col min-h-screen bg-beige">
-        {/* Transparent Navbar (overlays hero video) */}
+      <div className="flex flex-col min-h-screen bg-beige">
         <Navbar />
 
-        {/* Main Content */}
-        <main className="flex-grow">
+        <main className="flex-grow w-full">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
@@ -27,10 +27,11 @@ function App() {
             <Route path="/products" element={<Products />} />
             <Route path="/careers" element={<Careers />} />
             <Route path="/team" element={<Team />} />
+            {/* Fallback route */}
+            <Route path="*" element={<Home />} />
           </Routes>
         </main>
 
-        {/* Footer */}
         <Footer />
       </div>
     </Router>
